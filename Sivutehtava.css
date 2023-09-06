@@ -1,0 +1,39 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+main {
+    display: flex;
+    overflow: hidden;
+    background-color: lightblue;
+    margin: -20px 0 0 0;
+}
+
+aside {
+    flex: 1;
+    order: 2;
+}
+
+header {
+    background: #d5c3f7;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    width: 70%;
+    order: 1;
+    padding: 20px;
+}
+
+aside {
+    background-color: lightgreen;
+    width: 30%;
+    padding: 20px;
+}
+
+footer {
+    background-color: #fad3bb;
+    padding: 20px;
+    text-align: center;
+}
