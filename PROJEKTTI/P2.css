@@ -1,0 +1,25 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+main {
+    display: flex;
+    overflow: hidden;
+    background: #f7dea3;
+    text-align: center;
+}
+
+figcaption{
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    padding: 20px;
+    text-align: center;
+}
