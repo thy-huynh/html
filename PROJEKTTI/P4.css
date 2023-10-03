@@ -2,9 +2,12 @@ body {
     width: 50%;
     margin: 0 auto;
     background-repeat: repeat;
-    background: lightblue;
+    background: white;
 }
-
+main {
+	margin-bottom: 50px;
+	background-color: lightblue;
+}
 form {
     padding-bottom: 20px;
 }
@@ -53,4 +56,8 @@ button{
 }
 textarea {
     margin-left: 325px;
+}
+h1{
+    padding: 20px;
+    text-align: left;
 }
