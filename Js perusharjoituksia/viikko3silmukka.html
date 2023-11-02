@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/javascript" src="viikko3.js"></script>
+<head>
+<meta charset="UT8">
+<link rel="stylesheet" href="viikko3.css"
+<title>Viikon 3 harjoitukset silmukka</title>
+</head>
+<body>
+    <article class="box" id="yksi">
+        <h1>Teht‰v‰ 1</h1>
+        <p>Tee ohjelma, joka pyyt‰‰ k‰ytt‰j‰lt‰
+        kolmea numeroa ja laittaa ne j‰rjestykseen</p>
+        <form action="index.html" method="post">
+          <p>Anna 1 numero: <input type="text" id="eka" name="eka"></p>
+          <p>Anna 2 numero: <input type="text" id="toka" name="toka"></p>
+          <p>Anna 3 numero: <input type="text" id="kolmas" name="kolmas"></p>
+        <button type="button" name="button" onclick="jarjesta()">J‰rjest‰ luvut</button>
+        </form>
+    </article>
+    <article class="box" id="kaksi">
+        <h1>Teht‰v‰ 2</h1>
+        <p>Kirjoita ohjelma, joka ottaa vastaan 5 lukua ja etsii niist‰ suurimman</p>
+        <form action="index.html" method="post">
+          <p>Anna 1. luku: <input type="text" id="luku1"></p>
+          <p>Anna 2. luku: <input type="text" id="luku2"></p>
+          <p>Anna 3. luku: <input type="text" id="luku3"></p>
+          <p>Anna 4. luku: <input type="text" id="luku4"></p>
+          <p>Anna 5. luku: <input type="text" id="luku5"></p>
+        <button type="button" name="button" onclick="etsiSuurin()">Etsi suurin numero</button>
+        </form>
+    </article>
+    <article class="box" id="kolme">
+        <h1>Teht‰v‰ 3</h1>
+        <p>Kirjoita ohjelma, joka kertoo, onko antamasi luku parillinen vai pariton</p>
+        <p>Anna luku: <input type="text" id="numero"></p>
+        <button type="button" name="button" onclick="pariPariton()">Tarkista</button>
+    </article>
+    <article class="box" id="nelja">
+       <h1>Teht‰v‰ 4</h1>
+        <p>Kirjoita ohjelma, joka kysyy k‰ytt‰j‰n ik‰‰ ja tarkistaa, mit‰ ajoneuvoa saa ajaa: &lt;16v - polkupyˆr‰‰, &lt;18v - mopoa, muutoin autoa</p>
+       <form class="" action="index.html" method="post">
+        <p>Anna k‰ytt‰j‰n ik‰: <input type="text" id="iat"></p>
+       <button type="button" name="button" onclick="kulkuneuvo()" >N‰yt‰ ajoneuvo</button>
+      </form>
+    </article>
+    <article class="box" id="viisi">
+       <h1>Teht‰v‰ 5</h1>
+        <p>Kirjoita ohjelma, joka k‰‰nt‰‰ "Hei maailma" - tekstin valitulle kielelle (englanti, suomi, vietnam)</p>
+        <p>Valitse kieli</p>
+       <select class="" id="kieli">
+          <option value="eng">Englanti</option>
+          <option value="fin">Suomi</option>
+          <option value="vin">Vietnam</option>
+       </select>
+       <button type="button" id="button" onclick="kaanna()" >K‰‰nn‰</button>
+    </article>
+</body>
+</html>
