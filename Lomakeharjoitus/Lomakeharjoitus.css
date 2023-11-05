@@ -1,7 +1,7 @@
 body {
   width: 50%;
   height: 100vh;
-  margin: 10;
+  margin: auto;
   background-repeat: repeat;
   background: white;
 }
@@ -15,7 +15,7 @@ main {
 form {
   max-width: 700px;
   min-width: 300px;
-  margin: 10;
+  margin: 5px;
   padding-bottom: 2em;
 }
 
@@ -25,9 +25,13 @@ form {
 
 input{
     height: 25px;
-    width: 50%;
     border: 1px solid #CCC;
     border-radius: 5px;
+    display: inline;
+    margin: 5px;
+    vertical-align: middle;
+    width: unset;
+
 }
 
 input[type="lähetä"] {
@@ -42,25 +46,15 @@ input[type="lähetä"] {
 option {
     font-weight: normal;
     display: block;
-    white-space-collapse: collapse;
-    text-wrap: nowrap;
     min-height: 1.2em;
     padding: 0px 2px 1px;
-}
-
-.inline {
-     width: unset;
-     margin: 10;
-     vertical-align: middle;  
-     display: inline;
-
 }
 
 #butt{
     margin-top: 10px;
 }
 
-h1, p {
+h1{
     margin: 1em auto;
     text-align: left;
 }
