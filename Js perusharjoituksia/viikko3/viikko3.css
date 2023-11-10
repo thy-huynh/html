@@ -1,0 +1,41 @@
+.view
+{
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 10px;
+  float:left;
+}
+#one{
+  background-color: #f0a5a5;
+}
+#two{
+  background-color: #f0d1a5;
+}
+#three{
+    background-color: #e6f0a5;
+}
+#four{
+    background-color: #c1f0a5;
+}
+#five{
+    background-color: #a5f0d2;
+}
+#six{
+  background-color: #a5d7f0;
+}
+#seven{
+  background-color: #a5a9f0;
+}
+#eight{
+  background-color: #d0a5f0;
+}
+#nine{
+  background-color: #f0a5ed;
+}
+#ten{
+  background-color: #f0a5c6;
+}
+#eleven{
+  background-color: #cf025b;
+}

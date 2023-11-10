@@ -1,0 +1,29 @@
+body
+{
+  background-color: white;
+  padding: 20px;
+}
+table{
+text-align: right;
+border-collapse: collapse;
+}
+td{
+  width: 20px;
+}
+.view
+{
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 10px;
+  float:left;
+}
+#one{
+  background-color: #f0a5a5;
+}
+#two{
+  background-color: #f0d1a5;
+}
+#three{
+    background-color: #e6f0a5;
+}
