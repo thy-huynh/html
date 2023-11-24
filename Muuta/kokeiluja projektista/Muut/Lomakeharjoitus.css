@@ -1,0 +1,59 @@
+body {
+  width: 30%;
+  margin: auto;
+  background: white;
+}
+
+main {
+	margin-bottom: 50px;
+	background-color: lightblue;
+}
+
+
+#etu, #suku{
+    padding-bottom: 0em !important;
+}
+
+input{
+    height: 25px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    display: inline;
+    margin: 5px;
+    vertical-align: middle;
+    width: unset;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+#butt{
+    margin-top: 10px;
+}
+
+div{
+      border: 1px solid black;
+      outline-style: double;
+      margin: 0 auto;
+      padding: 10px;
+}
+
+p.ex1 {
+      border: 1px solid black;
+      outline-style: double;
+}
+
+p.ex2 {
+      border: 1px solid black;
+      outline-style: double;
+}
+
+p.ex3 {
+      border: 1px solid black;
+      outline-style: double;
+}
+
